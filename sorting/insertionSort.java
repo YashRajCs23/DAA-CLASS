@@ -25,3 +25,4 @@ public class insertionSort{
 // Comparisons (Best case): n-1 swaps : 0
 // Comparisons (Average case): ~n(n-1)/4   swaps : ~n(n-1)/4
 // Time Complexity: O(n^2) in worst and average case, O(n) in best case
+// Space Complexity: O(1) as it uses only a constant amount of space

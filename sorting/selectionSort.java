@@ -24,7 +24,9 @@ public class selectionSort {
     }
 }
 // Passes: always n-1
-// Comparisons (Worst case): n(n-1)/2 swaps : n(n-1)/2
-// Comparisons (Best case): n(n-1)/2 swaps : n(n-1)/2
-// Comparisons (Average case): n(n-1)/2 swaps : n(n-1)/2
-// Time Complexity: O(n^2) in worst, best, and average case
+// Comparisons (Worst case): n(n-1)/2
+// Comparisons (Best case): n(n-1)/2
+// Comparisons (Average case): n(n-1)/2
+// Swaps (Worst, Best, Average case): n-1
+// Time Complexity: O(n^2) for all cases
+// Space Complexity: O(1) as it uses only a constant amount of space

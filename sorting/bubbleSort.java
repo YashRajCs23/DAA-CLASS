@@ -29,9 +29,12 @@ public class bubbleSort {
     }
 }
 
-// Passes: always n-1
-// Comparisons (Worst case): n(n-1)/2 swaps : n(n-1 )/2 
-// Comparisons (Best case): n-1 swaps : 0
-// Comparisons (Average case): ~n(n-1)/4 swaps : ~n(n-1)/4
-// Time Complexity: O(n^2) in worst and average case, O(n) in best case
-// Space Complexity: O(1) as it uses only a constant amount of space
+// Passes: Worst case - n-1, Best case - 1 (due to early exit)
+// Comparisons (Worst case): n(n-1)/2
+// Comparisons (Best case): n-1
+// Comparisons (Average case): ~n(n-1)/4
+// Swaps (Worst case): n(n-1)/2
+// Swaps (Best case): 0
+// Swaps (Average case): ~n(n-1)/4
+// Time Complexity: O(n^2) in worst & average, O(n) in best case
+// Space Complexity: O(1)
